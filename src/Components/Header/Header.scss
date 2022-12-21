@@ -1,0 +1,39 @@
+.header {
+  height: 100px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  img {
+    padding-top: 0.6%;
+    padding-left: 1%;
+    height: 70%;
+    cursor: pointer;
+  }
+
+  div {
+    // border: 2px solid red;
+    width: 100%;
+    margin-left: 4vmax;
+    display: flex;
+    justify-content: space-evenly;
+
+    a {
+      color: white;
+      text-decoration: none;
+      font-size: 30px;
+    }
+    a:hover {
+      color: gray;
+    }
+  }
+  svg {
+    color: white;
+    font-size: 1.9rem;
+    cursor: pointer;
+    margin-right: 1.3%;
+  }
+  svg:hover {
+    color: grey;
+  }
+}
