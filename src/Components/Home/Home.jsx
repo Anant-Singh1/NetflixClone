@@ -81,9 +81,7 @@ const Home = () => {
         <div
           className="banner"
           style={{
-            backgroundImage: toprated[0]
-              ? `url(${`${imgURL}/${upcomingmovie[6].poster_path}`})`
-              : " ",
+            backgroundImage: `url(${`${imgURL}/${upcomingmovie[6].poster_path}`})`,
           }}
         >
           <h1>{upcomingmovie[6].original_title}</h1>
